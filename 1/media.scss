@@ -1,0 +1,235 @@
+@media (max-width: 1080px) {
+  .header__nav {
+    justify-content: space-between;
+  }
+  .breadcramb {
+    justify-content: space-between;
+  }
+  .main {
+    &blockl__accesories {
+      width: 1068px;
+    }
+    &__shared {
+      &-block-text {
+        margin-left: 22px;
+        &_0 {
+          width: 375px;
+        }
+        .heading {
+          font-size: 16px;
+          line-height: 19.2px;
+        }
+        .text {
+          font-size: 16px;
+          line-height: 19.2px;
+          &_head {
+            width: 354px;
+          }
+        }
+        .ok {
+          .text {
+            font-size: 16px;
+            line-height: 19.2px;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    &__end__block {
+      flex-direction: column;
+      height: 693px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .main__block {
+    height: 375px;
+    .img__men {
+      display: none;
+    }
+    .the_brand {
+      font-size: 38px;
+      line-height: 45.6px;
+    }
+
+    .of_luxer,
+    .fashion {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+    &1__accesories {
+      height: 111px;
+    }
+  }
+
+  .header__nav {
+    justify-content: space-between;
+    &__logo__search {
+      margin-left: 16px;
+    }
+    &__gamb__men__basket {
+      margin-right: 16px;
+      width: 32px;
+      height: 32px;
+      .men {
+        display: none;
+      }
+      .basket {
+        display: none;
+      }
+    }
+  }
+  .breadcramb {
+    justify-content: center;
+  }
+  .main {
+    &__shared {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+      &-block-text {
+        margin: 0;
+        &_0 {
+          width: 375px;
+        }
+        .heading {
+          font-size: 16px;
+          line-height: 19.2px;
+        }
+        .text {
+          font-size: 16px;
+          line-height: 19.2px;
+          &_head {
+            width: 354px;
+          }
+        }
+        .ok {
+          .text {
+            font-size: 16px;
+            line-height: 19.2px;
+          }
+        }
+      }
+    }
+  }
+  .main__block__2__text1 {
+    margin: 64px 0;
+  }
+  .footer {
+    &__end__block {
+      flex-direction: column;
+      height: 693px;
+      &3 {
+        flex-direction: column;
+      }
+    }
+
+    &__end__block2 {
+      &__inside {
+        flex-direction: row;
+        .buttons {
+          .button1 {
+            width: 246px;
+          }
+          .button2 {
+            width: 95px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1167px) and (min-width: 1024px) {
+  .main__block1__1__0 {
+    flex-wrap: nowrap;
+  }
+
+  .for_men,
+  .for_kids,
+  .for_woman {
+    max-width: 95%;
+  }
+
+  .text__for_woman {
+    left: 35%;
+  }
+
+  .text__for_man,
+  .text__for_kids {
+    left: 38%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .for_men,
+  .for_kids,
+  .for_woman {
+    max-width: 95%;
+  }
+
+  .text1 {
+    font-size: 12px;
+  }
+
+  .text2 {
+    font-size: 16px;
+  }
+
+  .main__block1 {
+    &__accesories {
+      width: 1020px;
+    }
+    width: 100%;
+  }
+
+  .main__block1__1__0 {
+    flex-wrap: nowrap;
+  }
+}
+@media (max-width: 767px) {
+  .img__men {
+    display: none;
+  }
+  .the_brand {
+    font-size: 32px;
+  }
+  .fashion,
+  .of_luxer {
+    font-size: 24px;
+  }
+  .for_men,
+  .for_kids,
+  .for_woman {
+    max-width: 95%;
+  }
+
+  .text1 {
+    font-size: 12px;
+  }
+
+  .text2 {
+    font-size: 16px;
+  }
+  .text__for_woman {
+    left: 32%;
+  }
+
+  .text__for_man,
+  .text__for_kids {
+    left: 37%;
+  }
+  .text__for_accesories {
+    top: 30%;
+    left: 32%;
+  }
+  .main__blockl__accesories {
+    height: 111px;
+    max-width: 360px;
+  }
+  .main__block1 {
+    width: 100%;
+  }
+}

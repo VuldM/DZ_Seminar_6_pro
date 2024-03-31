@@ -490,7 +490,7 @@ summary::-webkit-details-marker {
   background-color: #fff;
 }
 
-@media (min-width: 768px) and (max-width: 1080px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .header__nav {
     justify-content: space-between;
   }
@@ -543,6 +543,21 @@ summary::-webkit-details-marker {
     justify-content: center;
     flex-direction: column;
     gap: 32px;
+  }
+  .filter__heading ~ svg {
+    width: 38px;
+    height: 25px;
+  }
+  .filter__heading {
+    display: none;
+  }
+  .filter__sort {
+    gap: 10px;
+  }
+  .sort_heading {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
   }
   .shost {
     min-height: 760px;
